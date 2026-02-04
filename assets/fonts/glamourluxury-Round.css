@@ -1,0 +1,12 @@
+/* Webfont: glamourluxury-Round */@font-face {
+    font-family: 'glamourluxuryRound';
+    src: url('glamourluxury-Round.eot'); /* IE9 Compat Modes */
+    src: url('glamourluxury-Round.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('glamourluxury-Round.woff') format('woff'), /* Modern Browsers */
+         url('glamourluxury-Round.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('glamourluxury-Round.svg#glamourluxury-Round') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

@@ -1,0 +1,12 @@
+/* Webfont: glamourluxury-Thin */@font-face {
+    font-family: 'glamourluxury3';
+    src: url('glamourluxury-Thin.eot'); /* IE9 Compat Modes */
+    src: url('glamourluxury-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('glamourluxury-Thin.woff') format('woff'), /* Modern Browsers */
+         url('glamourluxury-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('glamourluxury-Thin.svg#glamourluxury-Thin') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
