@@ -66,3 +66,20 @@ body {
 h1, p {
   -webkit-font-smoothing: antialiased;
 }
+
+.banner {
+  height: 150px; /* mobile lebih pendek */
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    height: 260px; /* desktop */
+    border-radius: 18px;
+    margin-bottom: 28px;
+  }
+}
+
