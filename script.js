@@ -43,17 +43,12 @@ fetch(DATA_URL)
 
     function createButton(label, link) {
       if (!link) return;
+    
       const a = document.createElement("a");
       a.href = link;
       a.target = "_blank";
       a.innerText = label;
-      a.style.display = "block";
-      a.style.margin = "12px 0";
-      a.style.padding = "14px";
-      a.style.border = "1px solid var(--accent-gold)";
-      a.style.color = "var(--text-light)";
-      a.style.textDecoration = "none";
-      a.style.borderRadius = "999px";
+      a.className = "button";
       buttons.appendChild(a);
     }
   });
