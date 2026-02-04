@@ -1,0 +1,30 @@
+/* =========================
+   FONT
+========================= */
+
+/* Glamour Luxury (self-hosted) */
+@import url("./assets/fonts/glamourluxury/glamourluxury.css");
+
+/* Inter (Google Fonts) */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
+/* =========================
+   COLOR SYSTEM
+========================= */
+:root {
+  --bg-dark: #3d2020;
+  --accent-gold: #efc06a;
+  --accent-muted: #beae83;
+  --text-light: #faf3d4;
+  --text-dark: #000000;
+}
+
+/* =========================
+   BASE
+========================= */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
