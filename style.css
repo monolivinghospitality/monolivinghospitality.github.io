@@ -33,16 +33,32 @@ body {
 /* =========================
    BUTTON STYLE
 ========================= */
-#buttons a {
-  transition: all 0.3s ease;
-  backdrop-filter: blur(2px);
+#buttons {
+  margin-top: 32px;
 }
 
-#buttons a:hover {
-  background-color: var(--accent-gold);
-  color: #3d2020;
-  transform: translateY(-2px);
+.button {
+  display: block;
+  margin: 12px 0;
+  padding: 14px 20px;
+  border-radius: 999px;
+
+  border: 1px solid var(--accent-gold);
+  color: var(--text-light);
+  text-decoration: none;
+
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+
+  transition: all 0.3s ease;
 }
+
+.button:hover {
+  background: var(--accent-gold);
+  color: #000;
+}
+
 
 /* =========================
    SMOOTH TEXT
