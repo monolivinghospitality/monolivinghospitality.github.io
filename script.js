@@ -38,7 +38,7 @@ fetch(DATA_URL)
 
     createButton("Instagram", villa.instagram, "instagram");
     createButton("WhatsApp Booking", villa.whatsapp, "message-circle");
-    createButton("Google Maps", villa.maps, "map-pin");
+    createButton("Location", villa.maps, "map-pin");
     createButton("General Info & Services", villa.booklet, "book-open");
 
 
