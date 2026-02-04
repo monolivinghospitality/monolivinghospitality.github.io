@@ -22,11 +22,11 @@ fetch(DATA_URL)
     }
 
     // Assets
-    document.getElementById("logo").src =
-      `../assets/logos/${slug}.png`;
+    document.getElementById("logo").src = villa.logo;
 
     document.getElementById("banner").style.backgroundImage =
-      `url('../assets/banners/${slug}.jpg')`;
+      `url('${villa.banner}')`;
+
 
     // Text
     document.getElementById("villa-name").innerText = villa.villa_name;
