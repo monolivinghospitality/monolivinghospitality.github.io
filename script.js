@@ -57,3 +57,6 @@ fetch(DATA_URL)
       buttons.appendChild(a);
     }
   });
+
+document.getElementById("year").innerText = new Date().getFullYear();
+
