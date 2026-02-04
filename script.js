@@ -36,21 +36,29 @@ fetch(DATA_URL)
     const buttons = document.getElementById("buttons");
     buttons.innerHTML = "";
 
-    createButton("Instagram", villa.instagram);
-    createButton("WhatsApp Booking", villa.whatsapp);
-    createButton("Google Maps", villa.maps);
-    createButton("General Info & Services", villa["booklet"]);
+    createButton("Instagram", villa.instagram, "instagram");
+    createButton("WhatsApp Booking", villa.whatsapp, "message-circle");
+    createButton("Google Maps", villa.maps, "map-pin");
+    createButton("Booklet", villa.booklet, "book-open");
 
-    function createButton(label, link) {
+
+    function createButton(label, link, icon) {
       if (!link) return;
     
       const a = document.createElement("a");
       a.href = link;
       a.target = "_blank";
-      a.innerText = label;
       a.className = "button";
+    
+      a.innerHTML = `
+        <span class="icon" data-lucide="${icon}"></span>
+        <span class="label">${label}</span>
+      `;
+    
       buttons.appendChild(a);
+      lucide.createIcons();
     }
+
   });
 
 document.getElementById("year").innerText = new Date().getFullYear();
