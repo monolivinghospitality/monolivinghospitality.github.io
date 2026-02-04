@@ -28,3 +28,25 @@ body {
   background-color: var(--bg-dark);
   color: var(--text-light);
 }
+
+
+/* =========================
+   BUTTON STYLE
+========================= */
+#buttons a {
+  transition: all 0.3s ease;
+  backdrop-filter: blur(2px);
+}
+
+#buttons a:hover {
+  background-color: var(--accent-gold);
+  color: #3d2020;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   SMOOTH TEXT
+========================= */
+h1, p {
+  -webkit-font-smoothing: antialiased;
+}
